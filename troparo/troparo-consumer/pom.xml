@@ -23,12 +23,7 @@
         </plugins>
     </build>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
 
->>>>>>> test
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -51,6 +46,12 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
             <version>5.0.8.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.inject</groupId>
+            <artifactId>javax.inject</artifactId>
+            <version>1</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.bval/bval-jsr -->
         <dependency>
@@ -109,11 +110,7 @@
             <version>1.2.17</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>javax.inject</groupId>
-            <artifactId>javax.inject</artifactId>
-        </dependency>
+
     </dependencies>
->>>>>>> 1871b21bfd40d05ca830d64e9bfa788b8b25ee47
 
 </project>

@@ -45,9 +45,6 @@
             <artifactId>postgresql</artifactId>
             <version>${postgres.version}</version>
         </dependency>
-<<<<<<< HEAD
-=======
 
->>>>>>> test
     </dependencies>
 </project>

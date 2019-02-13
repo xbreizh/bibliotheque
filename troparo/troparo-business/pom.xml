@@ -9,15 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-<<<<<<< HEAD:troparo-business/pom.xml
     <artifactId>troparo-business</artifactId>
-<<<<<<< HEAD
-=======
-    <artifactId>troparo-technical</artifactId>
-=======
 
 
->>>>>>> test
+
+
+
     <dependencies>
         <!--Modules-->
         <dependency>
@@ -26,14 +23,14 @@
             <version>${log4j.version}</version>
         </dependency>
 
-<<<<<<< HEAD
+
         <!--  &lt;!&ndash; https://mvnrepository.com/artifact/org.springframework/spring-context &ndash;&gt;
           <dependency>
               <groupId>org.springframework</groupId>
               <artifactId>spring-context</artifactId>
               <version>5.1.3.RELEASE</version>
           </dependency>-->
-=======
+
         <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
         <dependency>
             <groupId>org.postgresql</groupId>
@@ -87,11 +84,18 @@
             <version>1.2.17</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>javax.inject</groupId>
+            <artifactId>javax.inject</artifactId>
+            <version>1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.troparo</groupId>
+            <artifactId>troparo-consumer</artifactId>
+        </dependency>
 
 
->>>>>>> test
     </dependencies>
->>>>>>> 1871b21bfd40d05ca830d64e9bfa788b8b25ee47:troparo-technical/pom.xml
 
 
 </project>

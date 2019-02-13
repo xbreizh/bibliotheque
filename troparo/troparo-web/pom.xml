@@ -19,9 +19,7 @@
 
 
     <dependencies>
-<<<<<<< HEAD
-        <!-- ===== Modules ===== -->
-=======
+
 
         <!-- ===== Modules ===== -->
         <dependency>
@@ -29,7 +27,6 @@
             <artifactId>troparo-business</artifactId>
             <version>${project.version}</version>
         </dependency>
->>>>>>> 1871b21bfd40d05ca830d64e9bfa788b8b25ee47
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>troparo-model</artifactId>
@@ -103,8 +100,7 @@
             <artifactId>postgresql</artifactId>
             <version>${postgres.version}</version>
         </dependency>
-<<<<<<< HEAD
-=======
+
 
         <dependency>
             <groupId>javax.inject</groupId>
@@ -112,16 +108,7 @@
             <version>1</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-frontend-jaxws -->
-        <!--<dependency>
-            <groupId>org.apache.cxf</groupId>
-            <artifactId>cxf-rt-frontend-jaxws</artifactId>
-            <version>3.2.7</version>
-        </dependency>-->
 
-
-
->>>>>>> 1871b21bfd40d05ca830d64e9bfa788b8b25ee47
     </dependencies>
 
     <build>
@@ -156,9 +143,9 @@
                             <sourceRoot>src/main/java/</sourceRoot>
                             <wsdlOptions>
                                 <wsdlOption>
-<<<<<<< HEAD
+
                                     <wsdl>${basedir}/src/main/resources/com/jaxws/series/td/spring/hibernate/services/MusicService.wsdl</wsdl>
-=======
+
                                     <wsdl>${basedir}/src/main/resources/org/troparo/web/services/BookService.wsdl</wsdl>
                                 </wsdlOption>
                                 <wsdlOption>
@@ -171,7 +158,7 @@
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/main/resources/org/troparo/web/services/ConnectService.wsdl
                                     </wsdl>
->>>>>>> 1871b21bfd40d05ca830d64e9bfa788b8b25ee47
+
                                 </wsdlOption>
                                 <wsdlOption>
                                     <wsdl>${basedir}/src/main/resources/org/troparo/web/services/MailService.wsdl
