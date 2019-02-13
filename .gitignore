@@ -1,2 +1,9 @@
+<<<<<<< HEAD
 C:\Users\john\Documents\openClassrooms\Project_7-Library_troparo\project\new\troparo\troparo-business\src\main\resources\config.properties
 pgdata
+=======
+.idea
+*.iml
+/generated
+target
+>>>>>>> webapp
